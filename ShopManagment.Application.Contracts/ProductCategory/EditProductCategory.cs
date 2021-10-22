@@ -5,3 +5,4 @@ namespace ShopManagement.Application.Contracts.ProductCategory
         public long Id { get; set; }
     }
 }
+            
