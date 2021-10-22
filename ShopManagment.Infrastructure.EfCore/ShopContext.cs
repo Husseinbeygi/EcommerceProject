@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain;
 using ShopManagment.Infrastructure.EfCore.Mapers;
 
 namespace ShopManagment.Infrastructure.EfCore
 {
-    class ShopContext : DbContext
+   public class ShopContext : DbContext
     {
-        public DbSet<ShopContext> _shopcontext { get; set; }
+        public DbSet<ProductCategory> ProductCategories { get; set; }
         public ShopContext(DbContextOptions<ShopContext> options) : base(options)
         {
         }
@@ -16,7 +17,7 @@ namespace ShopManagment.Infrastructure.EfCore
             var assambly = typeof(ProductCategoryMap).Assembly;
             modelBuilder.ApplyConfigurationsFromAssembly(assambly);
 
-
+            
             base.OnModelCreating(modelBuilder);
         }
     }
