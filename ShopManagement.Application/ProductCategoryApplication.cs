@@ -25,7 +25,7 @@ namespace ShopManagement.Application
             }
             var _slug = command.Slug.Slugify();
             var productCategory = new ProductCategory(command.Name, command.Description,
-             command.Picture, command.PictureAlt, command.PictureTitle, command.KeyWords, command.MetaDiscription, _slug);
+             command.Picture, command.PictureAlt, command.PictureTitle, command.KeyWords, command.MetaDescription, _slug);
 
             _productCategoryRepository.Create(productCategory);
             _productCategoryRepository.SaveChanges();
@@ -48,7 +48,7 @@ namespace ShopManagement.Application
             }
             var _slug = command.Slug.Slugify();
             var productCategory = new ProductCategory(command.Name, command.Description,
-             command.Picture, command.PictureAlt, command.PictureTitle, command.KeyWords, command.MetaDiscription, _slug);
+             command.Picture, command.PictureAlt, command.PictureTitle, command.KeyWords, command.MetaDescription, _slug);
 
             _productCategoryRepository.SaveChanges();
             return operation.Succeeded();

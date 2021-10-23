@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.ProductCategory;
 
@@ -20,6 +21,16 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
         {
             productCategories = _productCategoryApplication.Search(searchModel);
 
+        }
+
+        public IActionResult OnGetCreate()
+        {
+            return Partial("./Create", new CreateProductCategory());
+        }
+        public JsonResult OnPostCreate(CreateProductCategory productCategory)
+        {
+            var result = _productCategoryApplication.Create(productCategory);
+            return new JsonResult(result);
         }
     }
 }
