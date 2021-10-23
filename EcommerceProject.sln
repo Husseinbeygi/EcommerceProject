@@ -21,7 +21,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Infrastructre", "SM.Infr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagment.Infrastructure.EfCore", "ShopManagment.Infrastructure.EfCore\ShopManagment.Infrastructure.EfCore.csproj", "{1C240D92-7798-4EB7-ABB3-7F69504F647F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Configuration", "ShopManagement.Configuration\ShopManagement.Configuration.csproj", "{6B140CF8-1D84-48B1-9D75-82A92C168E0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Configuration", "ShopManagement.Configuration\ShopManagement.Configuration.csproj", "{6B140CF8-1D84-48B1-9D75-82A92C168E0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,18 @@ Global
 		{6B140CF8-1D84-48B1-9D75-82A92C168E0C}.Release|x64.Build.0 = Release|Any CPU
 		{6B140CF8-1D84-48B1-9D75-82A92C168E0C}.Release|x86.ActiveCfg = Release|Any CPU
 		{6B140CF8-1D84-48B1-9D75-82A92C168E0C}.Release|x86.Build.0 = Release|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Debug|x64.Build.0 = Debug|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Debug|x86.Build.0 = Debug|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Release|x64.ActiveCfg = Release|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Release|x64.Build.0 = Release|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Release|x86.ActiveCfg = Release|Any CPU
+		{AEC8C7C1-E311-4A74-B939-781F9FB3DE82}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
