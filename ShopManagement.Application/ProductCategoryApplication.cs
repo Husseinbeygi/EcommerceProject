@@ -47,7 +47,7 @@ namespace ShopManagement.Application
                 return operation.Failed("امکان ثبت محصول رکورد تکراری وجود ندارد ");
             }
             var _slug = command.Slug.Slugify();
-            var productCategory = new ProductCategory(command.Name, command.Description,
+            productCatgory.Edit(command.Name, command.Description,
              command.Picture, command.PictureAlt, command.PictureTitle, command.KeyWords, command.MetaDescription, _slug);
 
             _productCategoryRepository.SaveChanges();
