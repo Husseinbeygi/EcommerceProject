@@ -17,7 +17,7 @@ namespace ShopManagement.Domain.ProductAggregation
 
         public void Edit(string name, string code, double unitPrice,
                 string shortDescription, string description, string picture, string pictureAlt,
-                string picutreTitle, string slug, string keywords, string metaDescription, long caegoryId)
+                string picutreTitle, string slug, string keywords, string metaDescription, long categoryId)
         {
             Name = name;
             Code = code;
@@ -30,12 +30,12 @@ namespace ShopManagement.Domain.ProductAggregation
             Slug = slug;
             Keywords = keywords;
             MetaDescription = metaDescription;
-            CaegoryId = caegoryId;
+            CategoryId = categoryId;
         }
 
         public Product(string name, string code, double unitPrice,
             string shortDescription, string description, string picture, string pictureAlt,
-            string picutreTitle, string slug, string keywords, string metaDescription, long caegoryId)
+            string picutreTitle, string slug, string keywords, string metaDescription, long categoryId)
         {
             Name = name;
             Code = code;
@@ -48,7 +48,7 @@ namespace ShopManagement.Domain.ProductAggregation
             Slug = slug;
             Keywords = keywords;
             MetaDescription = metaDescription;
-            CaegoryId = caegoryId;
+            CategoryId = categoryId;
         }
 
         public string Name { get; private set; }
@@ -63,7 +63,7 @@ namespace ShopManagement.Domain.ProductAggregation
         public string Slug { get; private set; }
         public string Keywords { get; private set; }
         public string MetaDescription { get; private set; }
-        public long CaegoryId { get; private set; }
+        public long CategoryId { get; private set; }
         public ProductCategory Category { get; private set; }
     }
 }

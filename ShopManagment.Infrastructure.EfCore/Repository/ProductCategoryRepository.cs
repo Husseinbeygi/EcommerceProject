@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿    using System.Collections.Generic;
 using System.Linq;
 using _0_Framework.Infastructure;
 using ShopManagement.Application.Contracts.ProductCategory;
@@ -28,6 +28,14 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
                 PictureTitle = x.PictureTitle,
                 Slug = x.Slug
             }).FirstOrDefault(x => x.Id == id);
+        }
+
+        public List<ProductCategoryViewModel> GetProductCategoriesList()
+        {
+            return _context.ProductCategories.Select(x => new ProductCategoryViewModel { 
+             Id = x.Id,
+             Name = x.Name
+            }).ToList();
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel command)

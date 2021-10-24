@@ -17,7 +17,7 @@ namespace ShopManagement.Application.Contracts.Product
         public string Slug { get;  set; }
         public string Keywords { get;  set; }
         public string MetaDescription { get;  set; }
-        public long CaegoryId { get; private set; }
+        public long CaegoryId { get;  set; }
 
 
     }
