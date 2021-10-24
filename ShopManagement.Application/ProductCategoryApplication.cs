@@ -21,7 +21,7 @@ namespace ShopManagement.Application
             var operation = new OperationResult();
             if (_productCategoryRepository.Exist(x => x.Name == command.Name))
             {
-                return operation.Failed("امکان ثبت محصول رکورد تکراری وجود ندارد");
+                return operation.Failed(Messages.FailedOpration_Duplicate);
             }
             var _slug = command.Slug.Slugify();
             var productCategory = new ProductCategory(command.Name, command.Description,
@@ -40,11 +40,11 @@ namespace ShopManagement.Application
             var productCatgory = _productCategoryRepository.Get(command.Id);
             if (productCatgory == null)
             {
-                return operation.Failed("رکور موجود نیست");
+                return operation.Failed(Messages.FailedOpration_Null);
             }
             if (_productCategoryRepository.Exist(x => x.Name == command.Name && x.Id != command.Id))
             {
-                return operation.Failed("امکان ثبت محصول رکورد تکراری وجود ندارد ");
+                return operation.Failed(Messages.FailedOpration_Duplicate);
             }
             var _slug = command.Slug.Slugify();
             productCatgory.Edit(command.Name, command.Description,

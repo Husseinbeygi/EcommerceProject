@@ -15,14 +15,13 @@ namespace ShopManagement.Domain.ProductAggregation
             IsInStock = false;
         }
 
-        public void Edit(string name, string code, double unitPrice, bool isInStock,
+        public void Edit(string name, string code, double unitPrice,
                 string shortDescription, string description, string picture, string pictureAlt,
                 string picutreTitle, string slug, string keywords, string metaDescription, long caegoryId)
         {
             Name = name;
             Code = code;
             UnitPrice = unitPrice;
-            IsInStock = isInStock;
             ShortDescription = shortDescription;
             Description = description;
             Picture = picture;
@@ -34,14 +33,13 @@ namespace ShopManagement.Domain.ProductAggregation
             CaegoryId = caegoryId;
         }
 
-        public Product(string name, string code, double unitPrice, bool isInStock,
+        public Product(string name, string code, double unitPrice,
             string shortDescription, string description, string picture, string pictureAlt,
             string picutreTitle, string slug, string keywords, string metaDescription, long caegoryId)
         {
             Name = name;
             Code = code;
             UnitPrice = unitPrice;
-            IsInStock = isInStock;
             ShortDescription = shortDescription;
             Description = description;
             Picture = picture;

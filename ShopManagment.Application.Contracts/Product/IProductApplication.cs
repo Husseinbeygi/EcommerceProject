@@ -10,6 +10,8 @@ namespace ShopManagement.Application.Contracts.Product
         OperationResult Edit(EditProduct command);
         EditProduct GetDetails(long id);
         List<ProductViewModel> Search(ProductSearchModel command);
+        OperationResult InStock(long Productid);
+        OperationResult NotInStock(long Productid);
 
 
     }
