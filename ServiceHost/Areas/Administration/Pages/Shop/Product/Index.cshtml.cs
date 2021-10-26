@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -51,5 +51,31 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Product
             var result = _productApplication.Edit(product);
             return new JsonResult(result);
         }
+
+        public IActionResult OnGetInStock(long id)
+        {
+            var res = _productApplication.InStock(id);
+            if (res.IsSucceeded)
+            {
+                return RedirectToPage("./Index");
+            }
+            ViewData["ResultMessage"] = "خطایی در عملیات رخ داده است";
+            return RedirectToPage("./Index");
+
+        }
+
+
+        public IActionResult OnGetOutOfInStock(long id)
+        {
+            var res = _productApplication.NotInStock(id);
+            if (res.IsSucceeded)
+            {
+                return RedirectToPage("./Index");
+            }
+            ViewData["ResultMessage"] = "خطایی در عملیات رخ داده است";
+            return RedirectToPage("./Index");
+
+        }
+
     }
 }

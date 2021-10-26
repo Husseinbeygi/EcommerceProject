@@ -12,7 +12,7 @@ namespace ShopManagement.Application.Contracts.Product
         List<ProductViewModel> Search(ProductSearchModel command);
         OperationResult InStock(long Productid);
         OperationResult NotInStock(long Productid);
-
+        List<ProductViewModel> GetProducts();
 
     }
 }

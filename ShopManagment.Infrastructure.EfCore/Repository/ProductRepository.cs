@@ -37,6 +37,14 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
             }).FirstOrDefault(x => x.Id == id);
         }
 
+        public List<ProductViewModel> GetProducts()
+        {
+            return _context.products.Select(x => new ProductViewModel {
+                Id = x.Id,
+                Name = x.Name
+            }).ToList();
+        }
+
         public List<ProductViewModel> Search(ProductSearchModel command)
         {
             var query =  _context.products.Include(x =>x.Category).Select(x => new ProductViewModel() { 
@@ -47,6 +55,7 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
             Picture = x.Picture,
             UnitPrice = x.UnitPrice,
             CategoryId = x.CategoryId,
+            IsInStock = x.IsInStock,
             CreationDate = x.CreationDate.ToString(),
             });
 

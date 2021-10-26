@@ -12,5 +12,7 @@ namespace _0_Framework.Application
 
         public const string FailedOpration_Duplicate = "امکان ثبت رکورد تکراری وجود ندارد";
         public const string FailedOpration_Null = "این رکورد موجود نیست";
+        public const string FailedOpration_PictureNull = "عکس انتخاب نشده است";
+
     }
 }

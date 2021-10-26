@@ -1,4 +1,6 @@
-﻿using _0_Framework.Domin;
+﻿using System.Collections.Generic;
+using _0_Framework.Domin;
+using ShopManagement.Domain.ProductPicureAggregation;
 
 namespace ShopManagement.Domain.ProductAggregation
 {
@@ -65,5 +67,7 @@ namespace ShopManagement.Domain.ProductAggregation
         public string MetaDescription { get; private set; }
         public long CategoryId { get; private set; }
         public ProductCategory Category { get; private set; }
+
+        public List<ProductPicture> ProductPictures { get; private set; }
     }
 }
