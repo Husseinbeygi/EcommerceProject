@@ -9,8 +9,8 @@ namespace ShopManagement.Application.Contracts.Slide
 {
     public interface ISlideApplication
     {
-        OperationResult Create(CreateSlide productPicture);
-        OperationResult Edit(EditSlide productPicture);
+        OperationResult Create(CreateSlide slidePicture);
+        OperationResult Edit(EditSlide slidePicture);
         OperationResult Remove(long id);
         OperationResult Restore(long id);
         EditSlide GetDetails(long id);

@@ -2,6 +2,7 @@
 using ShopManagement.Domain;
 using ShopManagement.Domain.ProductAggregation;
 using ShopManagement.Domain.ProductPicureAggregation;
+using ShopManagement.Domain.SliderAggregation;
 using ShopManagment.Infrastructure.EfCore.Mapers;
 
 namespace ShopManagment.Infrastructure.EfCore
@@ -11,6 +12,7 @@ namespace ShopManagment.Infrastructure.EfCore
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<Product> products { get; set; }
         public DbSet<ProductPicture> ProductsPicture { get; set; }
+        public DbSet<Slide> Slide { get; set; }
         public ShopContext(DbContextOptions<ShopContext> options) : base(options)
         {
         }

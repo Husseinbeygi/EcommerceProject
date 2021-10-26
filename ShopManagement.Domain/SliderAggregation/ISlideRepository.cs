@@ -11,8 +11,6 @@ namespace ShopManagement.Domain.SliderAggregation
 {
     public interface ISlideRepository : IRepository<long , Slide>
     {
-        OperationResult Remove(long id);
-        OperationResult Restore(long id);
         EditSlide GetDetails(long id);
         List<SlideViewModel> GetList();
 

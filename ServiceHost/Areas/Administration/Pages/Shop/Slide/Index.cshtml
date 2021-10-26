@@ -1,11 +1,11 @@
 ﻿@page
-@model ServiceHost.Areas.Administration.Pages.Shop.ProductPictures.IndexModel
+@model ServiceHost.Areas.Administration.Pages.Shop.Slide.IndexModel
 @{
 }
 
 @{
     Layout = "Shared/_AdminLayout";
-    ViewData["title"] = "مدیریت عکس محصولات";
+    ViewData["title"] = "مدیریت اسلاید ها";
 }
 
 <div class="row">
@@ -16,36 +16,11 @@
         </p>
     </div>
 </div>
-
-<div class="row">
-    <div class="col-md-12">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">جستج عکس محصولات</h3>
-            </div>
-            <div class="panel-body">
-                <form class="form-inline" role="form" method="get">
-
-                    <div class="form-group">
-                        <label class="sr-only" asp-for="SearchModel.ProductId"></label>
-                        <select class="form-control" asp-for="SearchModel.ProductId" asp-items="Model.listProduct">
-                            <option value="0">محصول ....</option>
-                        </select>
-
-                    </div>
-                    <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
-                    <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="row" id="ProductCategoriesDiv">
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">لیست  عکس محصولات</h3>
+                <h3 class="panel-title">لیست  اسلایدر ها</h3>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -55,21 +30,21 @@
                                 <tr>
                                     <th>#</th>
                                     <th>عکس</th>
-                                    <th> نام محصول</th>
-                                    <th>تاریخ تولید</th>
+                                    <th> سرمطلب</th>
+                                    <th>وضعیت نمایش</th>
                                     <th>عملیات</th>
 
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var item in Model.productViewModel)
+                                @foreach (var item in Model.slideViewModel)
                                 {
                                     <tr>
                                         <td>@item.Id</td>
                                         <td>
                                             <img src="@item.Picture" style="width: 70px; height: 70px" />
                                         </td>
-                                        <td>@item.ProductName</td>
+                                        <td>@item.Heading</td>
 
                                         <td class="text-center">
                                             @if (!item.IsRemoved)
@@ -82,7 +57,6 @@
                                             }
 
                                         </td>
-                                        <td>@item.DateCreation</td>
                                         <td>
                                             <a class="btn btn-warning pull-right m-rl-5"
                                                href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
