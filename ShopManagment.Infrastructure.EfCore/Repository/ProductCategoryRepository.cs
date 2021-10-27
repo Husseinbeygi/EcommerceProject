@@ -46,7 +46,9 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
                 Description = x.Description,
                 Name = x.Name,
                 CreationDate = x.CreationDate.ToString(),
-                Picture = x.Picture
+                Picture = x.Picture,
+                IsRemoved = x.IsRemoved,
+                
 
 
             });
@@ -56,7 +58,7 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
                 query = query.Where(x => x.Name == command.Name);
             }
 
-            return query.OrderByDescending(x => x.Id).ToList();
+            return query.OrderByDescending(x => x.Id).OrderBy(x => x.IsRemoved == true).ToList();
         }
     }
 }

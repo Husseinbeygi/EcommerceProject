@@ -8,7 +8,8 @@ namespace ShopManagement.Application.Contracts.ProductCategory
         public string Picture { get; set; }
         public string CreationDate { get; set; }
         public long ProductsCount { get; set; }
-        
+        public bool IsRemoved { get; set; }
+
 
     }
 }

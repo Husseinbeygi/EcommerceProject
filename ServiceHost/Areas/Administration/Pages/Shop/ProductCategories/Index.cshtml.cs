@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.ProductCategory;
@@ -42,5 +42,31 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
             var result = _productCategoryApplication.Edit(productCategory);
             return new JsonResult(result);
         }
+
+        public IActionResult OnGetRemove(long id)
+        {
+            var res = _productCategoryApplication.Remove(id);
+            if (res.IsSucceeded)
+            {
+                return RedirectToPage("./Index");
+            }
+            ViewData["ResultMessage"] = "خطایی در عملیات رخ داده است";
+            return RedirectToPage("./Index");
+
+        }
+
+
+        public IActionResult OnGetRestore(long id)
+        {
+            var res = _productCategoryApplication.Restore(id);
+            if (res.IsSucceeded)
+            {
+                return RedirectToPage("./Index");
+            }
+            ViewData["ResultMessage"] = "خطایی در عملیات رخ داده است";
+            return RedirectToPage("./Index");
+
+        }
+
     }
 }
