@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Slider\Query\" />
+    <ProjectReference Include="..\ShopManagment.Infrastructure.EfCore\ShopManagment.Infrastructure.EfCore.csproj" />
   </ItemGroup>
 
 </Project>

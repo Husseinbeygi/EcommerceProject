@@ -44,7 +44,7 @@ namespace ShopManagement.Application
             {
                 return operation.Failed(Messages.FailedOpration_Null);
             }
-            if (_slideRepository.Exist(x => x.Picture == slidePicture.Picture))
+            if (_slideRepository.Exist(x => x.Picture == slidePicture.Picture && x.Id != slidePicture.Id))
             {
                 return operation.Failed(Messages.FailedOpration_Duplicate);
             }
