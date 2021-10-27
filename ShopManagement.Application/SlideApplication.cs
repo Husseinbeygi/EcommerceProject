@@ -28,7 +28,7 @@ namespace ShopManagement.Application
             }
             
             var slide = new Slide(slidePicture.Picture,slidePicture.PictureAlt,slidePicture.PictureTitle,
-                slidePicture.Heading,slidePicture.Title,slidePicture.Text,slidePicture.BtnText);
+                slidePicture.Heading,slidePicture.Title,slidePicture.Text,slidePicture.BtnText,slidePicture.Link);
 
             _slideRepository.Create(slide);
             _slideRepository.SaveChanges();
@@ -50,7 +50,7 @@ namespace ShopManagement.Application
             }
 
             _slideforedit.Edit(slidePicture.Picture, slidePicture.PictureAlt, slidePicture.PictureTitle,
-                slidePicture.Heading,slidePicture.Title,slidePicture.Text,slidePicture.BtnText);
+                slidePicture.Heading,slidePicture.Title,slidePicture.Text,slidePicture.BtnText,slidePicture.Link);
 
             _slideRepository.SaveChanges();
             return operation.Succeeded();

@@ -29,7 +29,8 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Text = x.Text,
-                Title = x.Title
+                Title = x.Title,
+                Link = x.Link,
 
             }).FirstOrDefault(x => x.Id == id);
         }
@@ -42,7 +43,7 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
                 Heading = x.Heading,
                 Picture = x.Picture,
                 Title = x.Title,
-                IsRemoved = x.IsRemoved,
+                IsRemoved = x.IsRemoved
             }).ToList();
         }
 
