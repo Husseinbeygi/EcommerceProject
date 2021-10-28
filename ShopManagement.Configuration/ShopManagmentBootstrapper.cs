@@ -40,7 +40,6 @@ namespace ShopManagement.Configuration
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
 
-            ShopContextFactory.DatabaseConnectionString = connectionString;
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }

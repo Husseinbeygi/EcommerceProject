@@ -9,9 +9,9 @@ namespace DiscountManagment.Application
 {
     public class CustomerDiscountApplication : ICustomerDiscountApplication
     {
-        private readonly CustomerDiscountRepository _customerDiscountRepository;
+        private readonly ICustomerDiscountRepository _customerDiscountRepository;
 
-        public CustomerDiscountApplication(CustomerDiscountRepository customerDiscountRepository)
+        public CustomerDiscountApplication(ICustomerDiscountRepository customerDiscountRepository)
         {
             _customerDiscountRepository = customerDiscountRepository;
         }
