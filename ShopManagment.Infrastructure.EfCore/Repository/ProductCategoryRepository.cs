@@ -1,9 +1,10 @@
-﻿    using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using _0_Framework.Application;
 using _0_Framework.Infastructure;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain;
+using ShopManagement.Domain.ProductCategoryAggregation;
 
 namespace ShopManagment.Infrastructure.EfCore.Repository
 {

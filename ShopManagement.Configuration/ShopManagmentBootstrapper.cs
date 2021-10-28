@@ -10,8 +10,8 @@ using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Application.Contracts.Slide;
-using ShopManagement.Domain;
 using ShopManagement.Domain.ProductAggregation;
+using ShopManagement.Domain.ProductCategoryAggregation;
 using ShopManagement.Domain.ProductPicureAggregation;
 using ShopManagement.Domain.SliderAggregation;
 using ShopManagment.Infrastructure.EfCore;
@@ -42,7 +42,7 @@ namespace ShopManagement.Configuration
 
             ShopContextFactory.DatabaseConnectionString = connectionString;
 
-            services.AddDbContext<ShopContext>();
+            services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }
     }
 }

@@ -15,8 +15,6 @@ namespace DiscountManagment.Infrastructure.EFCore
         public DiscountContext(DbContextOptions<DiscountContext> options) : base(options)
         {
         }
-
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 

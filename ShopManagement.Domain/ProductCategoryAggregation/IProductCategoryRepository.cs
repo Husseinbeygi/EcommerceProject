@@ -5,7 +5,7 @@ using _0_Framework.Domin;
 using ShopManagement.Application.Contracts.ProductCategory;
 using _0_Framework.Infastructure;
 
-namespace ShopManagement.Domain
+namespace ShopManagement.Domain.ProductCategoryAggregation
 {
     public interface IProductCategoryRepository : IRepository<long, ProductCategory>
     {

@@ -22,7 +22,9 @@ namespace ServiceHost
         {
             var connString = Configuration.GetConnectionString("Database");
             ShopManagmentBootstrapper.Configure(services, connString);
-            DicountManagmentBootstrapper.Configure(services, connString);
+            DiscountManagmentBootstrapper.Configure(services, connString);
+
+
             services.AddRazorPages();
         }
 

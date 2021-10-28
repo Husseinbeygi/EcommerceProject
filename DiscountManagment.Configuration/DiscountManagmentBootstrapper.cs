@@ -9,18 +9,18 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace DiscountManagment.Configuration
 {
-    public class DicountManagmentBootstrapper
+    public class DiscountManagmentBootstrapper
     {
 
         public static void Configure(IServiceCollection services,string ConnectionString)
         {
 
-            services.AddTransient<ICustomerDiscountRepository, CustomerDiscountRepository>();
             services.AddTransient<ICustomerDiscountApplication, CustomerDiscountApplication>();
+            services.AddTransient<ICustomerDiscountRepository, CustomerDiscountRepository>();
 
             DiscountContextFactory.DatabaseConnectionString = ConnectionString;
             
-            services.AddDbContext<DiscountContext>();
+            services.AddDbContext<DiscountContext>(x => x.UseSqlServer(ConnectionString));
         }
     }
 }

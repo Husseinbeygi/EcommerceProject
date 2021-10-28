@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using _0_Framework.Application;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain;
+using ShopManagement.Domain.ProductCategoryAggregation;
 
 namespace ShopManagement.Application
 {

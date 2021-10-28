@@ -28,7 +28,7 @@ namespace _01_Queries.Slider.Query
                                      PictureAlt = x.PictureAlt,
                                      PictureTitle = x.PictureTitle,
                                      Text =x.Text,
-                                     Title =x.Title
+                                     Title =x.Title,
                                     }).ToList();
         }
     }
