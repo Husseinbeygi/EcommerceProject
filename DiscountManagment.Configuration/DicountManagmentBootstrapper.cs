@@ -18,7 +18,9 @@ namespace DiscountManagment.Configuration
             services.AddTransient<ICustomerDiscountRepository, CustomerDiscountRepository>();
             services.AddTransient<ICustomerDiscountApplication, CustomerDiscountApplication>();
 
-            services.AddDbContext<DiscountContext>(x => x.UseSqlServer(ConnectionString));
+            DiscountContextFactory.DatabaseConnectionString = ConnectionString;
+            
+            services.AddDbContext<DiscountContext>();
         }
     }
 }
