@@ -7,7 +7,7 @@ using ShopManagment.Infrastructure.EfCore.Mapers;
 
 namespace ShopManagment.Infrastructure.EfCore
 {
-   public class ShopContext : DbContext
+    public class ShopContext : DbContext
     {
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<Product> products { get; set; }
