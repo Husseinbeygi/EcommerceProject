@@ -10,7 +10,6 @@ using Microsoft.Extensions.DependencyInjection;
 namespace DiscountManagment.Configuration
 {
     public class DicountManagmentBootstrapper
-
     {
 
         public static void Configure(IServiceCollection services,string ConnectionString)
