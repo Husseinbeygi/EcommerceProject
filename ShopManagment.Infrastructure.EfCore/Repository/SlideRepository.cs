@@ -43,7 +43,8 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
                 Heading = x.Heading,
                 Picture = x.Picture,
                 Title = x.Title,
-                IsRemoved = x.IsRemoved
+                IsRemoved = x.IsRemoved,
+                CreationDate = x.CreationDate.ToFarsi()
             }).ToList();
         }
 

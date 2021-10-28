@@ -31,17 +31,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiscountManagment", "Discou
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM.Domain", "DM.Domain", "{9BC169E1-C271-4674-8E80-3F32AC6482CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagment.Domain", "DM.Domain\DiscountManagment.Domain.csproj", "{727F16A3-6556-49BF-97AD-466978FDF941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManagment.Domain", "DM.Domain\DiscountManagment.Domain.csproj", "{727F16A3-6556-49BF-97AD-466978FDF941}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM.Application", "DM.Application", "{7E692FDB-8647-47A7-948E-DA61C468272B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagment.Application.Contract", "DiscountManagment.Application.Contract\DiscountManagment.Application.Contract.csproj", "{6D9E828F-14CD-42D9-A3A7-D8195E6437AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManagment.Application.Contract", "DiscountManagment.Application.Contract\DiscountManagment.Application.Contract.csproj", "{6D9E828F-14CD-42D9-A3A7-D8195E6437AC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM.Infrastructre", "DM.Infrastructre", "{A820247D-3594-4F87-B71C-308FCB36209F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagment.Infrastructure.EFCore", "CustomerDiscount.Infrastructure.EFCore\DiscountManagment.Infrastructure.EFCore.csproj", "{9D5C2A09-D493-4EB9-AC5B-A45D0F45BD92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManagment.Infrastructure.EFCore", "CustomerDiscount.Infrastructure.EFCore\DiscountManagment.Infrastructure.EFCore.csproj", "{9D5C2A09-D493-4EB9-AC5B-A45D0F45BD92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagment.Application", "DiscountManagment.Application\DiscountManagment.Application.csproj", "{16C0FD00-8C5C-4492-B569-1D120819A718}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManagment.Application", "DiscountManagment.Application\DiscountManagment.Application.csproj", "{16C0FD00-8C5C-4492-B569-1D120819A718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagment.Configuration", "DiscountManagment.Configuration\DiscountManagment.Configuration.csproj", "{7BC27396-32EF-46B2-8AD1-58D57138C356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -197,6 +199,18 @@ Global
 		{16C0FD00-8C5C-4492-B569-1D120819A718}.Release|x64.Build.0 = Release|Any CPU
 		{16C0FD00-8C5C-4492-B569-1D120819A718}.Release|x86.ActiveCfg = Release|Any CPU
 		{16C0FD00-8C5C-4492-B569-1D120819A718}.Release|x86.Build.0 = Release|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Debug|x64.Build.0 = Debug|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Debug|x86.Build.0 = Debug|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Release|x64.ActiveCfg = Release|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Release|x64.Build.0 = Release|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Release|x86.ActiveCfg = Release|Any CPU
+		{7BC27396-32EF-46B2-8AD1-58D57138C356}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -217,6 +231,7 @@ Global
 		{A820247D-3594-4F87-B71C-308FCB36209F} = {A798B56F-3CC0-4AB0-80AF-1D0A400943DD}
 		{9D5C2A09-D493-4EB9-AC5B-A45D0F45BD92} = {A820247D-3594-4F87-B71C-308FCB36209F}
 		{16C0FD00-8C5C-4492-B569-1D120819A718} = {7E692FDB-8647-47A7-948E-DA61C468272B}
+		{7BC27396-32EF-46B2-8AD1-58D57138C356} = {A820247D-3594-4F87-B71C-308FCB36209F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {40893BC7-378B-4346-B362-C324061F575B}

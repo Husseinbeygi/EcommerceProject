@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DiscountManagment.Domain.CustomerDiscountAgg;
+using DiscountManagment.Infrastructure.EFCore.Mapper;
 using Microsoft.EntityFrameworkCore;
 
 namespace DiscountManagment.Infrastructure.EFCore
@@ -19,8 +20,8 @@ namespace DiscountManagment.Infrastructure.EFCore
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            //var assambly = typeof(ProductCategoryMap).Assembly;
-            //modelBuilder.ApplyConfigurationsFromAssembly(assambly);
+            var assambly = typeof(CustomerDiscountMap).Assembly;
+            modelBuilder.ApplyConfigurationsFromAssembly(assambly);
 
             base.OnModelCreating(modelBuilder);
         }

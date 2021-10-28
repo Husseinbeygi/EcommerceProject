@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using _0_Framework.Application;
 using _0_Framework.Infastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.ProductPicture;
@@ -35,7 +36,7 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
             var query = _context.ProductsPicture.Include(x => x.Product).Select(x => new ProductPictureViewModel() {
 
                 Id = x.Id,
-                DateCreation = x.CreationDate.ToString(),
+                DateCreation = x.CreationDate.ToFarsi(),
                 Picture = x.Picture,
                 ProductName = x.Product.Name,
                 ProductId = x.ProductId,

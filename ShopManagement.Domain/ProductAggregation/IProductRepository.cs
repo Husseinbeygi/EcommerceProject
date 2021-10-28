@@ -12,7 +12,6 @@ namespace ShopManagement.Domain.ProductAggregation
     {
         EditProduct GetDetails(long id);
         List<ProductViewModel> Search(ProductSearchModel command);
-
         List<ProductViewModel> GetProducts();
     }
 }

@@ -1,5 +1,6 @@
 ﻿    using System.Collections.Generic;
 using System.Linq;
+using _0_Framework.Application;
 using _0_Framework.Infastructure;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain;
@@ -45,7 +46,7 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
                 Id = x.Id,
                 Description = x.Description,
                 Name = x.Name,
-                CreationDate = x.CreationDate.ToString(),
+                CreationDate = x.CreationDate.ToFarsi(),
                 Picture = x.Picture,
                 IsRemoved = x.IsRemoved,
                 

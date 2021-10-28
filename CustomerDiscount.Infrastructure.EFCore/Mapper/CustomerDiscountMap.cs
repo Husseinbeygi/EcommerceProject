@@ -9,14 +9,15 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DiscountManagment.Infrastructure.EFCore.Mapper
 {
-    class CustomerDiscountMapper : IEntityTypeConfiguration<CustomerDiscount>
+    class CustomerDiscountMap : IEntityTypeConfiguration<CustomerDiscount>
     {
         public void Configure(EntityTypeBuilder<CustomerDiscount> builder)
         {
             builder.ToTable("CustomerDiscounts");
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Reason).HasMaxLength(500);
 
-            
+
         }
     }
 }

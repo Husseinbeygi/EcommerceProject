@@ -8,10 +8,10 @@ using DiscountManagment.Application.Contract.CustomerDiscount;
 
 namespace DiscountManagment.Domain.CustomerDiscountAgg
 {
-    public interface ICustomerDiscount : IRepository<long,CustomerDiscount>
+    public interface ICustomerDiscountRepository : IRepository<long,CustomerDiscount>
     {
 
-        EditCustomerDiscount GetDetails();
+        EditCustomerDiscount GetDetails(long id);
         List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel searchModel);
         List<CustomerDiscountViewModel> GetList();
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using _0_Framework.Application;
 using DiscountManagment.Application.Contract.CustomerDiscount;
+using DiscountManagment.Domain.CustomerDiscountAgg;
 using DiscountManagment.Infrastructure.EFCore.Repository;
 
 namespace DiscountManagment.Application
@@ -17,12 +18,32 @@ namespace DiscountManagment.Application
 
         public OperationResult Define(DefineCustomerDiscount command)
         {
-                throw new NotImplementedException();
+            var oprationResult = new OperationResult();
+            if (_customerDiscountRepository.Exist(x => x.ProductId == command.ProductId))
+            {
+                return oprationResult.Failed(Messages.FailedOpration_Duplicate);
+            }
+            var _customerDiscount = new CustomerDiscount(command.ProductId, command.DiscountRate, command.StartDate.ToGeorgianDateTime(),
+                command.EndDate.ToGeorgianDateTime(),command.Reason);
+
+            _customerDiscountRepository.Create(_customerDiscount);
+            _customerDiscountRepository.SaveChanges();
+            return oprationResult.Succeeded();
+
         }
 
         public OperationResult Edit(EditCustomerDiscount command)
         {
-            throw new NotImplementedException();
+            var oprationResult = new OperationResult();
+            var _customerDiscount = _customerDiscountRepository.Get(command.Id);
+            if (_customerDiscount == null)
+            {
+                return oprationResult.Failed(Messages.FailedOpration_Null);
+            }
+            
+            _customerDiscount.Edit(command.ProductId,command.DiscountRate,command.StartDate.ToGeorgianDateTime(),command.EndDate.ToGeorgianDateTime(),command.Reason);
+            _customerDiscountRepository.SaveChanges();
+            return oprationResult.Succeeded();
         }
 
         public List<CustomerDiscountViewModel> GetCustomerDiscountList()
@@ -32,12 +53,12 @@ namespace DiscountManagment.Application
 
         public EditCustomerDiscount GetDetails(long id)
         {
-            throw new NotImplementedException();
+            return _customerDiscountRepository.GetDetails(id);
         }
 
         public List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel command)
         {
-            throw new NotImplementedException();
+            return _customerDiscountRepository.Search(command);
         }
     }
 }

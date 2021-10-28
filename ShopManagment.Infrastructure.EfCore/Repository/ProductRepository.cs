@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using _0_Framework.Application;
 using _0_Framework.Infastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
@@ -56,7 +57,7 @@ namespace ShopManagment.Infrastructure.EfCore.Repository
             UnitPrice = x.UnitPrice,
             CategoryId = x.CategoryId,
             IsInStock = x.IsInStock,
-            CreationDate = x.CreationDate.ToString(),
+            CreationDate = x.CreationDate.ToFarsi(),
             });
 
             if (!string.IsNullOrWhiteSpace(command.Name))

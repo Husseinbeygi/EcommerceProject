@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DM.Domain\DiscountManagment.Domain.csproj" />
+    <ProjectReference Include="..\ShopManagment.Infrastructure.EfCore\ShopManagment.Infrastructure.EfCore.csproj" />
   </ItemGroup>
 
 </Project>
