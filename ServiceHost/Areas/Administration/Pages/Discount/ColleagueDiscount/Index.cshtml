@@ -1,5 +1,5 @@
 ﻿@page
-@model      ServiceHost.Areas.Administration.Pages.Discount.CustomerDiscount.IndexModel
+@model ServiceHost.Areas.Administration.Pages.Discount.ColleagueDiscount.IndexModel
 @{
 }
 
@@ -32,14 +32,6 @@
                         </select>
                         <span asp-validation-for="SearchModel.ProductId" class="error"></span>
                     </div>
-                    <div class="form-group">
-                        <label class="sr-only" asp-for="SearchModel.StartDate"></label>
-                        <input class="form-control PersianDateInput" asp-for="SearchModel.StartDate" placeholder="تاریخ شروع">
-                    </div>
-                    <div class="form-group">
-                        <label class="sr-only" asp-for="SearchModel.EndDate"></label>
-                        <input class="form-control PersianDateInput" asp-for="SearchModel.EndDate" placeholder="تاریخ پایان">
-                    </div>
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
                     <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
                 </form>
@@ -52,7 +44,7 @@
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title"> لیست تخفیفات(@Model.customerDiscountViewModel.Count)</h3>
+                <h3 class="panel-title"> لیست تخفیفات(@Model.colleagueDiscountViewModel.Count)</h3>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -63,31 +55,54 @@
                                     <th>#</th>
                                     <th>محصول</th>
                                     <th>درصد تخفیف</th>
-                                    <th>تاریخ شروع</th>
-                                    <th>تاریخ پایان</th>
-                                    <th>مناسبت</th>
+                                    <th>وضعیت</th>
+                                    <th>تاریخ ثبت</th>
                                     <th>عملیات</th>
 
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var item in Model.customerDiscountViewModel)
+                                @foreach (var item in Model.colleagueDiscountViewModel)
                                 {
                                 <tr>
                                     <td>@item.Id</td>
                                     <td>
-                                        @item.ProductName 
+                                        @item.ProductName
                                     </td>
                                     <td>@item.DiscountRate</td>
-                                    <td>@item.StartDate</td>
-                                    <td>@item.EndDate</td>
-                                    <td>@item.Reason</td>
+                                    <td class="text-center">
+                                        @if (!item.IsRemoved)
+                                        {
+                                            <i class="fa fa-3x fa-check"></i>
+                                        }
+                                        else
+                                        {
+                                            <i class="fa fa-3x fa-remove"></i>
+                                        }
+
+                                    </td>
+                                    <td>@item.CreationDate</td>
                                     <td>
                                         <a class="btn btn-warning pull-right m-rl-5"
                                            href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
                                             <i class="fa fa-edit"></i> ویرایش
                                         </a>
-</td>
+                                        @if (!item.IsRemoved)
+                                        {
+
+                                            <a class="btn btn-danger pull-right m-rl-5" asp-page="./Index" asp-page-handler="Remove" asp-route-id="@item.Id">
+                                                <i class="fa fa-edit"></i> غیر فعال
+                                            </a>
+                                        }
+                                        else
+                                        {
+
+                                            <a class="btn btn-primary pull-right m-rl-5" asp-page="./Index" asp-page-handler="Restore" asp-route-id="@item.Id">
+                                                <i class="fa fa-edit"></i> فعال
+                                            </a>
+                                        }
+
+                                    </td>
                                 </tr>
                                 }
                             </tbody>

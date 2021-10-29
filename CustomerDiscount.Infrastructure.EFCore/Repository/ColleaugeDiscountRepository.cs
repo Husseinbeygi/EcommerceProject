@@ -44,7 +44,7 @@ namespace DiscountManagment.Infrastructure.EFCore.Repository
                 query = query.Where(x => x.ProductId == searchModel.ProductId);
             }
             var discount = query.OrderByDescending(x => x.Id).ToList();
-            discount.ForEach(x => x.ProductName = _product.FirstOrDefault(x => x.Id == searchModel.ProductId)?.Name);
+            discount.ForEach(c => c.ProductName = _product.FirstOrDefault(x => x.Id == c.ProductId)?.Name);
             return discount;
 
 

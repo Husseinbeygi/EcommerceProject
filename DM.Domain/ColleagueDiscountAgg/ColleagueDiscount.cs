@@ -13,6 +13,7 @@ namespace DiscountManagment.Domain.ColleagueDiscountAgg
         {
             ProductId = productId;
             DiscountRate = discountRate;
+            IsRemoved = false;
         }
 
 
