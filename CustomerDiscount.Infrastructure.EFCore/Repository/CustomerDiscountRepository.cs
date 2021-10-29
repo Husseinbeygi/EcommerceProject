@@ -25,8 +25,8 @@ namespace DiscountManagment.Infrastructure.EFCore.Repository
             return _context.customerDiscounts.Select(x => new EditCustomerDiscount {
                 Id = x.Id,
                 DiscountRate = x.DiscountRate,
-                EndDate = x.EndDate.ToFarsi(),
-                StartDate = x.StartDate.ToFarsi(),
+                EndDate = x.EndDate.ToDiscountFormat(),
+                StartDate = x.StartDate.ToDiscountFormat(),
                 ProductId = x.ProductId,
                 Reason = x.Reason,
             }).FirstOrDefault(x => x.Id == id);

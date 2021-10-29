@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using ShopManagement.Application.Contracts.Product;
 
 namespace DiscountManagment.Application.Contract.CustomerDiscount
 {
@@ -9,6 +10,8 @@ namespace DiscountManagment.Application.Contract.CustomerDiscount
         public string StartDate { get; set; }
         public string EndDate { get; set; }
         public string Reason { get; set; }
+
+        public List<ProductViewModel> Products { get; set; }
 
     }
 
