@@ -4,14 +4,16 @@ using DiscountManagment.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DiscountManagment.Infrastructure.EFCore.Migrations
 {
     [DbContext(typeof(DiscountContext))]
-    partial class DiscountContextModelSnapshot : ModelSnapshot
+    [Migration("20211029092703_AddedColleagueDiscount")]
+    partial class AddedColleagueDiscount
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

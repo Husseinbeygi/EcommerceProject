@@ -8,7 +8,7 @@ namespace DiscountManagment.Application.Contract.ColleagueDiscount
         public long ProductId { get; set; }
         public string ProductName { get; set; }
         public int DiscountRate { get; set; }
-        public DateTime CreationDate { get; set; }
+        public string CreationDate { get; set; }
         public bool  IsRemoved { get; set; }
 
     }

@@ -5,7 +5,7 @@ using DiscountManagment.Domain.ColleagueDiscountAgg;
 
 namespace DiscountManagment.Application
 {
-    class ColleagueDiscountApplication : IColleagueDiscountApplication
+    public class ColleagueDiscountApplication : IColleagueDiscountApplication
     {
         private readonly IColleagueDiscountRepository _colleagueDiscountRepository;
 

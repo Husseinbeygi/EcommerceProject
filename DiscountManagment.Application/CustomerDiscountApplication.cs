@@ -40,7 +40,11 @@ namespace DiscountManagment.Application
             {
                 return oprationResult.Failed(Messages.FailedOpration_Null);
             }
-            
+            if (_customerDiscountRepository.Exist(x => x.ProductId == command.ProductId && x.Id == command.Id))
+            {
+                return oprationResult.Failed(Messages.FailedOpration_Duplicate);
+            }
+
             _customerDiscount.Edit(command.ProductId,command.DiscountRate,command.StartDate.ToGeorgianDateTime(),command.EndDate.ToGeorgianDateTime(),command.Reason);
             _customerDiscountRepository.SaveChanges();
             return oprationResult.Succeeded();

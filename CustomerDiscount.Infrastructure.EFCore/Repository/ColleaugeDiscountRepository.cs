@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using _0_Framework.Application;
 using _0_Framework.Infastructure;
 using DiscountManagment.Application.Contract.ColleagueDiscount;
 using DiscountManagment.Domain.ColleagueDiscountAgg;
@@ -7,7 +8,7 @@ using ShopManagment.Infrastructure.EfCore;
 
 namespace DiscountManagment.Infrastructure.EFCore.Repository
 {
-    class ColleaugeDiscountRepository : RepositoryBase<long, ColleagueDiscount>, IColleagueDiscountRepository
+    public class ColleaugeDiscountRepository : RepositoryBase<long, ColleagueDiscount>, IColleagueDiscountRepository
     {
         private readonly DiscountContext _context;
         private readonly ShopContext _shopcontext;
@@ -34,7 +35,7 @@ namespace DiscountManagment.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 DiscountRate = x.DiscountRate,
                 ProductId = x.ProductId,
-                CreationDate = x.CreationDate,
+                CreationDate = x.CreationDate.ToFarsi(),
                 IsRemoved = x.IsRemoved
             });
 
