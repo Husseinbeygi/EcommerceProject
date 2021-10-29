@@ -14,5 +14,8 @@ namespace DiscountManagment.Application.Contract.ColleagueDiscount
         EditColleagueDiscount GetDetails(long id);
         List<ColleagueDiscountViewModel> Search(ColleagueDiscountSearchModel command);
 
+        OperationResult Remove(long Id);
+        OperationResult Restore(long Id);
+
     }
 }

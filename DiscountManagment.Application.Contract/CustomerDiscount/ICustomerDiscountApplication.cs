@@ -15,7 +15,5 @@ namespace DiscountManagment.Application.Contract.CustomerDiscount
         List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel command);
         List<CustomerDiscountViewModel> GetCustomerDiscountList();
 
-
-
     }
 }

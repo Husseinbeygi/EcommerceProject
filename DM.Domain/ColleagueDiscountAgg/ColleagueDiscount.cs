@@ -9,19 +9,17 @@ namespace DiscountManagment.Domain.ColleagueDiscountAgg
 {
     public  class ColleagueDiscount : EntityBase
     {
-        public ColleagueDiscount(long productId, int discountRate, bool isRemoved)
+        public ColleagueDiscount(long productId, int discountRate)
         {
             ProductId = productId;
             DiscountRate = discountRate;
-            IsRemoved = isRemoved;
         }
 
 
-        public void Edit(long productId, int discountRate, bool isRemoved)
+        public void Edit(long productId, int discountRate)
         {
             ProductId = productId;
             DiscountRate = discountRate;
-            IsRemoved = isRemoved;
         }
 
         public void Remove()
