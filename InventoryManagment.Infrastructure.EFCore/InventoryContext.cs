@@ -11,7 +11,7 @@ namespace InventoryManagment.Infrastructure.EFCore
 {
     public class InventoryContext : DbContext
     {
-    public DbSet<Inventory> Inventorys { get; set; }
+    public DbSet<Inventory> Inventories { get; set; }
         public InventoryContext(DbContextOptions<InventoryContext> options) : base(options)
         {
         }

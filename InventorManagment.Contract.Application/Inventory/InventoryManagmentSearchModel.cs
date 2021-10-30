@@ -3,7 +3,7 @@
     public class InventoryManagmentSearchModel
     {
 
-        public string ProductName { get; set; }       
+        public long ProductId { get; set; }       
         public bool IsInStock { get; set; }
 
 

@@ -4,6 +4,10 @@ namespace InventoryManagment.Domain.InventoryAggregation
 {
     public class InventoryOperation
     {
+        public InventoryOperation()
+        {
+        }
+
         public InventoryOperation(bool operationtype, long count, long operatorId, long currentCount, string description, long orderId, long inventoryId)
         {
             OperationType = operationtype;

@@ -5,7 +5,7 @@ using InventorManagment.Contract.Application.Inventory;
 
 namespace InventoryManagment.Domain.InventoryAggregation
 {
-    public interface IInventoryRepository : IRepository<long,Inventory>
+    public interface IInventoryManagmentRepository : IRepository<long,Inventory>
     {
               
         EditInventory GetDetails(long id);

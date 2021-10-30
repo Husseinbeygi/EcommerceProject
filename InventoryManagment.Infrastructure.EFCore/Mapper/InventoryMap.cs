@@ -8,8 +8,17 @@ namespace ShopManagment.Infrastructure.EfCore.Mapers
     {
         public void Configure(EntityTypeBuilder<Inventory> builder)
         {
-            //builder.ToTable("Products");
+            builder.ToTable("Inventory");
             builder.HasKey(x => x.Id);
+
+
+            builder.OwnsMany(x => x.InventoryOperations, modelbuilder => {
+                modelbuilder.ToTable("InventoryOperations");
+                modelbuilder.HasKey(x => x.Id);
+                modelbuilder.Property(x => x.Description).HasMaxLength(1000);
+                modelbuilder.WithOwner(x => x.Inventory).HasForeignKey(x => x.InventoryId);
+
+            });
         }
     }
 }

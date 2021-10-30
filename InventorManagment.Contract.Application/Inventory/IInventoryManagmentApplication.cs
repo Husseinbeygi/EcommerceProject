@@ -7,12 +7,13 @@ using _0_Framework.Application;
 
 namespace InventorManagment.Contract.Application.Inventory
 {
-    interface IInventoryManagmentApplication
+    public interface IInventoryManagmentApplication
     {
 
         OperationResult Create(CreateInventory command);
         OperationResult Edit(EditInventory command);
         OperationResult Increase(IncreaseInventory command);
+        OperationResult Decrease(DecreaseInventory command);
         OperationResult Decrease(List<DecreaseInventory> command);
         EditInventory GetDetails(long id);
         List<InventoryManagmentViewModel> Search(InventoryManagmentSearchModel command);
