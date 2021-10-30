@@ -12,6 +12,17 @@ namespace InventoryManagment.Domain.InventoryAggregation
         public double UnitPrice { get; private set; }
         public bool IsInStock { get; private set; }
         public List<InventoryOperation> InventoryOperations { get; private set; }
+        public Inventory(long productId, double unitPrice)
+        {
+            ProductId = productId;
+            UnitPrice = unitPrice;
+            IsInStock = false;
+        }
+        public void Edit(long productId, double unitPrice)
+        {
+            ProductId = productId;
+            UnitPrice = unitPrice;
+        }
 
         public long CalculateCurrentCount()
         {
@@ -27,7 +38,7 @@ namespace InventoryManagment.Domain.InventoryAggregation
             InventoryOperations.Add(_opration);
         }
 
-        public void Decrease(long count, long operatorId, string description)
+        public void Decrease(long count, long operatorId, string description, long orderId)
         {
             var _currentCount = CalculateCurrentCount() - count;
             var _opration = new InventoryOperation(false, count, operatorId, _currentCount, description, 0, Id);
