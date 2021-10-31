@@ -1,0 +1,43 @@
+﻿@model List< InventorManagment.Contract.Application.Inventory.InventoryOprationViewModel>
+@{
+
+
+}
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h4 class="modal-title">لیست تراکنش های انبار : </h4>
+</div>
+
+<table class="table table-bordered " width="60">
+    <thead>
+        <tr>
+
+
+            <th>#</th>
+            <th>تاریخ</th>
+            <th>تعداد</th>
+            <th> نوع عملیات</th>
+            <th>موجودی</th>
+            <th>عملگر</th>
+            <th>توضیحات</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr class="@(item.OperationType ? "bg-success" : "bg-danger")">
+            <td>@item.Id</td>
+            <td>@item.OperationDate</td>
+            <td>@item.Count</td>
+            <td>@(item.OperationType ? "افزایش" : "کاهش")</td>
+            <td>@item.CurrentCount</td>
+            <td>@item.OperatorId</td>
+            <td>@item.Description</td>
+        </tr>
+        }
+
+    </tbody>
+</table>
+
+<button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>

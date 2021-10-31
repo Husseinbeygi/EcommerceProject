@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using _0_Framework.Application;
 using _0_Framework.Infastructure;
 using InventorManagment.Contract.Application.Inventory;
 using InventoryManagment.Domain.InventoryAggregation;
@@ -35,9 +36,25 @@ namespace InventoryManagment.Infrastructure.EFCore.Repository
             }).FirstOrDefault(x => x.Id == id);
         }
 
+        public List<InventoryOprationViewModel> GetInventoryOprations(long id)
+        {
+            var _inventory = _context.Inventories.FirstOrDefault(x => x.Id == id);
+           return _inventory.InventoryOperations.Select( x => new InventoryOprationViewModel { 
+            Count = x.Count,
+            CurrentCount = x.CurrentCount,
+            Description = x.Description,
+            Id = x.Id,
+            OperationDate = x.OperationDate.ToFarsi(),
+            OperationType = x.OperationType,
+            OperatorId = x.OperatorId,
+            OrderId = x.OrderId
+            
+            }).ToList();
+        }
+
         public List<InventoryManagmentViewModel> Search(InventoryManagmentSearchModel command)
         {
-            var _product = _shopContext.products.Where(x =>x.Id == command.ProductId).Select(x => new { x.Id , x.Name}).ToList();
+            var _product = _shopContext.products.Select(x => new { x.Id , x.Name}).ToList();
             var query = _context.Inventories.Select(x => new InventoryManagmentViewModel {
                 Id = x.Id,
                 ProductId = x.ProductId,
@@ -45,17 +62,27 @@ namespace InventoryManagment.Infrastructure.EFCore.Repository
                 CurrentCount = x.CalculateCurrentCount(),
                 IsInStock = x.IsInStock
             });
-
-
+                
+            
+                
             if (command.ProductId > 0)
             {
                 query = query.Where(x => x.ProductId == command.ProductId);
             }
-
-                query = query.Where(x => x.IsInStock == command.IsInStock);
+            if (command.IsInStock)
+            {
+                query = query.Where(x => x.IsInStock == true);
+            } else
+            {
+                query = query.Where(x => x.IsInStock == false);
+            }
+                
 
             var searchquery =  query.OrderByDescending( x=>x.Id).ToList();
-            searchquery.ForEach(x => x.ProductName = _product.FirstOrDefault(c => c.Id == x.ProductId)?.Name);
+            searchquery.ForEach(x => {
+                x.ProductName = _product.FirstOrDefault(c => c.Id == x.ProductId)?.Name;
+                x.IsInStock = x.CurrentCount > 0 ? true : false;
+            });// 
             return searchquery;
 
         }

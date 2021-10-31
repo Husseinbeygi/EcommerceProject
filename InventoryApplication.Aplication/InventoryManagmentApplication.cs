@@ -33,7 +33,7 @@ namespace InventoryApplication.Aplication
         {
             var oprationResult = new OperationResult();
             var _inventoryforedit = _inventoryManagmentRepository.Get(command.InvenoryId);
-            if (_inventoryManagmentRepository == null)
+            if (_inventoryforedit == null)
             {
                 return oprationResult.Failed(Messages.FailedOpration_Null);
             }
@@ -64,7 +64,7 @@ namespace InventoryApplication.Aplication
         {
             var oprationResult = new OperationResult();
             var _inventoryforedit = _inventoryManagmentRepository.Get(command.InventoryId);
-            if (_inventoryManagmentRepository == null)
+            if (_inventoryforedit == null)
             {
                 return oprationResult.Failed(Messages.FailedOpration_Null);
             }
@@ -77,11 +77,11 @@ namespace InventoryApplication.Aplication
         {
             var oprationResult = new OperationResult();
             var _inventoryforedit = _inventoryManagmentRepository.Get(command.Id);
-            if (_inventoryManagmentRepository == null)
+            if (_inventoryforedit == null)
             {
                 return oprationResult.Failed(Messages.FailedOpration_Null);
             }
-            if (_inventoryManagmentRepository.Exist(x => x.ProductId == command.ProductId))
+            if (_inventoryManagmentRepository.Exist(x => x.ProductId == command.ProductId && x.Id != command.Id))
             {
                 return oprationResult.Failed(Messages.FailedOpration_Duplicate);
             }
@@ -100,6 +100,12 @@ namespace InventoryApplication.Aplication
         public List<InventoryManagmentViewModel> Search(InventoryManagmentSearchModel command)
         {
             return _inventoryManagmentRepository.Search(command);
+        }
+
+
+        public List<InventoryOprationViewModel> InventoryOprations(long id)
+        {
+            return _inventoryManagmentRepository.GetInventoryOprations(id);
         }
     }
 }
