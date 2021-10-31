@@ -28,7 +28,7 @@ namespace ShopManagement.Application
             }
 
             var _slug = command.Slug.Slugify();
-            var _product = new Product(command.Name, command.Code, command.UnitPrice, command.ShortDescription, command.Description, 
+            var _product = new Product(command.Name, command.Code, command.ShortDescription, command.Description, 
                 command.Picture, command.PictureAlt, command.PicutreTitle, _slug, 
                 command.Keywords, command.MetaDescription, command.CaegoryId);
 
@@ -52,7 +52,7 @@ namespace ShopManagement.Application
             }
 
             var _slug = command.Slug.Slugify();
-            _productforedit.Edit(command.Name, command.Code, command.UnitPrice, command.ShortDescription, command.Description, 
+            _productforedit.Edit(command.Name, command.Code, command.ShortDescription, command.Description, 
                 command.Picture, command.PictureAlt, command.PicutreTitle, _slug, command.Keywords,
                 command.MetaDescription, command.CaegoryId);
 
@@ -80,7 +80,6 @@ namespace ShopManagement.Application
                 return _oprationresult.Failed(Messages.FailedOpration_Null);
             }
 
-            _productforedit.InStock();
 
             _productRepository.SaveChanges();
             return _oprationresult.Succeeded();
@@ -96,7 +95,6 @@ namespace ShopManagement.Application
                 return _oprationresult.Failed(Messages.FailedOpration_Null);
             }
 
-            _productforedit.OutOfStock();
 
             _productRepository.SaveChanges();
             return _oprationresult.Succeeded();

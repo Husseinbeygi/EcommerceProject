@@ -65,8 +65,6 @@
                                     <th>نام</th>
                                     <th>کد</th>
                                     <th>گروه</th>
-                                    <th>قیمت</th>
-                                    <th>وضعیت موجودی</th>
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
 
@@ -83,39 +81,12 @@
                                     <td>@item.Name</td>
                                     <td>@item.Code</td>
                                     <td>@item.CategoryName</td>
-                                    <td>@item.UnitPrice</td>
-                                    <td class="text-center">
-                                        @if (item.IsInStock)
-                                        {
-                                            <i class="fa fa-3x fa-check"></i>
-                                        }
-                                        else
-                                        {
-                                            <i class="fa fa-3x fa-remove"></i>
-                                        }
-
-                                    </td>
                                     <td>@item.CreationDate</td>
                                     <td>
                                         <a class="btn btn-warning pull-right m-rl-5"
                                            href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
                                             <i class="fa fa-edit"></i> ویرایش
                                         </a>
-                                        @if (item.IsInStock)
-                                        {
-
-                                            <a class="btn btn-danger pull-right m-rl-5" asp-page="./Index" asp-page-handler="OutOfInStock" asp-route-id="@item.Id">
-                                                <i class="fa fa-edit"></i> اتمام موجودی
-                                            </a>
-                                        }
-                                        else
-                                        {
-
-                                            <a class="btn btn-primary pull-right m-rl-5" asp-page="./Index" asp-page-handler="InStock" asp-route-id="@item.Id">
-                                                <i class="fa fa-edit"></i> شارژ موجودی
-                                            </a>
-                                        }
-
                                     </td>
                                 </tr>
                                 }

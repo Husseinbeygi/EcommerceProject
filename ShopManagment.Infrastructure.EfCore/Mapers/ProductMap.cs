@@ -22,7 +22,6 @@ namespace ShopManagment.Infrastructure.EfCore.Mapers
             builder.Property(x => x.Picture).HasMaxLength(1000);
             builder.Property(x => x.PictureAlt).HasMaxLength(255);
             builder.Property(x => x.PicutreTitle).HasMaxLength(500);
-            builder.Property(x => x.UnitPrice).IsRequired();
 
             builder.Property(x => x.Keywords).HasMaxLength(80).IsRequired();
             builder.Property(x => x.MetaDescription).HasMaxLength(150).IsRequired();

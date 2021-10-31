@@ -52,30 +52,5 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Product
             return new JsonResult(result);
         }
 
-        public IActionResult OnGetInStock(long id)
-        {
-            var res = _productApplication.InStock(id);
-            if (res.IsSucceeded)
-            {
-                return RedirectToPage("./Index");
-            }
-            ViewData["ResultMessage"] = "خطایی در عملیات رخ داده است";
-            return RedirectToPage("./Index");
-
-        }
-
-
-        public IActionResult OnGetOutOfInStock(long id)
-        {
-            var res = _productApplication.NotInStock(id);
-            if (res.IsSucceeded)
-            {
-                return RedirectToPage("./Index");
-            }
-            ViewData["ResultMessage"] = "خطایی در عملیات رخ داده است";
-            return RedirectToPage("./Index");
-
-        }
-
     }
 }
