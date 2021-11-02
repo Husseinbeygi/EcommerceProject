@@ -18,5 +18,7 @@ namespace _01_Queries.ProductCategories.Contract
         public int? DiscountRate { get; set; }
         public string Category { get; set; }
         public bool HasDiscount { get; set; }
+        public string DateOfExpire { get; set; }
+        public string Slug { get; set; }
     }
 }
