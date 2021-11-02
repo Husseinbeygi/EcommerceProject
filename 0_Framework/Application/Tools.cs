@@ -105,6 +105,15 @@ namespace _0_Framework.Application
         {
             return myMoney.ToString("N0", CultureInfo.CreateSpecificCulture("fa-ir"));
         }
+        public static string ToMoney(this double? myMoney)
+        {
+            if (myMoney == null)
+            {
+                return "";
+            }
+            var money =(double)myMoney;
+            return money.ToString("N0", CultureInfo.CreateSpecificCulture("fa-ir"));
+        }
 
         public static string ToFileName(this DateTime date)
         {
