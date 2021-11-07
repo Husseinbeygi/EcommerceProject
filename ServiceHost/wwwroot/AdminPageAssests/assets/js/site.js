@@ -1,4 +1,5 @@
-﻿var SinglePage = {};
+﻿
+var SinglePage = {};
 
 SinglePage.LoadModal = function () {
     var url = window.location.hash.toLowerCase();
@@ -197,15 +198,17 @@ jQuery.validator.addMethod("maxFileSize",
     });
 jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
 
-//jQuery.validator.addMethod("maxFileSize",
-//    function (value, element, params) {
-//        var size = element.files[0].size;
-//        var maxSize = 3 * 1024 * 1024;
-//        debugger;
-//        if (size > maxSize)
-//            return false;
-//        else {
-//            return true;
-//        }
-//    });
-//jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
+jquery.validator.addmethod("fileExtentionLimitation",
+    function (value, element, params) {
+        var type = element.files[0].type
+        console.log(type)
+        if (type === "image/jpeg" || type === "image/png")
+            return false;
+        else {
+            return true;
+        }
+    });
+jQuery.validator.unobtrusive.adapters.addBool("fileExtentionLimitation");
+
+
+//image/jpeg

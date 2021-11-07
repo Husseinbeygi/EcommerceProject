@@ -39,8 +39,13 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
         }
         public JsonResult OnPostEdit(EditProductCategory productCategory)
         {
-            var result = _productCategoryApplication.Edit(productCategory);
-            return new JsonResult(result);
+            
+
+                var result = _productCategoryApplication.Edit(productCategory);
+                return new JsonResult(result);
+
+            
+            
         }
 
         public IActionResult OnGetRemove(long id)

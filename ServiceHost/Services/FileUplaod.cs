@@ -16,10 +16,15 @@ namespace ServiceHost.Services
 
         public string Upload(IFormFile file, string FilePath)
         {
-            string _filepath = CheckDirectoryExistence(FilePath);
-            using var output = File.Create($"{_filepath}//{file.FileName}");
-            file.CopyTo(output);
-            return $"{FilePath}/{file.FileName}";
+            if (file != null)
+            {
+
+                string _filepath = CheckDirectoryExistence(FilePath);
+                using var output = File.Create($"{_filepath}//{file.FileName}");
+                file.CopyTo(output);
+                return $"{FilePath}/{file.FileName}";
+            }
+            return "";
         }
 
         private string CheckDirectoryExistence(string Filepath)

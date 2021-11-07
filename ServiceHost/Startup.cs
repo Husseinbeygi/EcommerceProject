@@ -1,4 +1,8 @@
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
+using _0_Framework.Application;
 using _0_Framework.Domin;
+using AcountManagment.Configuration;
 using DiscountManagment.Configuration;
 using InventoryManagment.Configuration;
 using Microsoft.AspNetCore.Builder;
@@ -27,8 +31,10 @@ namespace ServiceHost
             ShopManagmentBootstrapper.Configure(services, connString);
             DiscountManagmentBootstrapper.Configure(services, connString);
             InventoryManagmentBootstrapper.Configure(services, connString);
+            AccountManagmentBootstrapper.Configure(services, connString);
 
-
+            services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
+            services.AddTransient<IPasswordHasher, PasswordHasher>();
             services.AddTransient<IFileUploads, FileUplaod>();
             services.AddRazorPages();
         }

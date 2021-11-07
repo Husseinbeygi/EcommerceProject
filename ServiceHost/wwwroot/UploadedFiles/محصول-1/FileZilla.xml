@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.56.0" platform="windows">
+	<Queue>
+		<Server>
+			<Host>192.168.1.105</Host>
+			<Port>21</Port>
+			<Protocol>0</Protocol>
+			<Type>0</Type>
+			<Logontype>0</Logontype>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>New site</Name>
+			<File>
+				<LocalFile>D:\Misc\Phone\Ml.net\005-Build an ML model for GitHub issue classification-git.ir.mkv</LocalFile>
+				<RemoteFile>005-Build an ML model for GitHub issue classification-git.ir.mkv</RemoteFile>
+				<RemotePath>1 0 5 Phone 6 Ml.net</RemotePath>
+				<Flags>16</Flags>
+				<Size>113053544</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Ml.net\003-Getting started with ML NET-git.ir.mkv</LocalFile>
+				<RemoteFile>003-Getting started with ML NET-git.ir.mkv</RemoteFile>
+				<RemotePath>1 0 5 Phone 6 Ml.net</RemotePath>
+				<Flags>16</Flags>
+				<Size>248290624</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Ml.net\002-ML NET introduction-git.ir.mkv</LocalFile>
+				<RemoteFile>002-ML NET introduction-git.ir.mkv</RemoteFile>
+				<RemotePath>1 0 5 Phone 6 Ml.net</RemotePath>
+				<Flags>16</Flags>
+				<Size>177939259</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Ml.net\001-ML NET Machine learning introduction-git.ir.mkv</LocalFile>
+				<RemoteFile>001-ML NET Machine learning introduction-git.ir.mkv</RemoteFile>
+				<RemotePath>1 0 5 Phone 6 Ml.net</RemotePath>
+				<Flags>16</Flags>
+				<Size>74942148</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\Readme.txt</LocalFile>
+				<RemoteFile>Readme.txt</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9</RemotePath>
+				<Flags>32784</Flags>
+				<Size>158</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\014-the-course-roadmap.mp4</LocalFile>
+				<RemoteFile>014-the-course-roadmap.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>17186092</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\013-iso-9241-a-standard-for-usability.mp4</LocalFile>
+				<RemoteFile>013-iso-9241-a-standard-for-usability.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>8355534</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\012-the-6-rules-of-usability.mp4</LocalFile>
+				<RemoteFile>012-the-6-rules-of-usability.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>21599688</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\011-can-openers-debrief.mp4</LocalFile>
+				<RemoteFile>011-can-openers-debrief.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>40183471</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\010-can-openers-user-research.mp4</LocalFile>
+				<RemoteFile>010-can-openers-user-research.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>33796783</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\009-can-openers-demonstration.mp4</LocalFile>
+				<RemoteFile>009-can-openers-demonstration.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>66393193</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\006-resources.mp4</LocalFile>
+				<RemoteFile>006-resources.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>58511214</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\005-whats-new-in-this-course.mp4</LocalFile>
+				<RemoteFile>005-whats-new-in-this-course.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>17632579</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\003-course-objectives.mp4</LocalFile>
+				<RemoteFile>003-course-objectives.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>25649787</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\002-welcome.mp4</LocalFile>
+				<RemoteFile>002-welcome.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>18865143</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\001-why-take-this-course.mp4</LocalFile>
+				<RemoteFile>001-why-take-this-course.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene</RemotePath>
+				<Flags>16</Flags>
+				<Size>36723569</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\01-setting-the-scene\quizzes\001-guiding-principles.html</LocalFile>
+				<RemoteFile>001-guiding-principles.html</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 20 01-setting-the-scene 7 quizzes</RemotePath>
+				<Flags>32784</Flags>
+				<Size>6219</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\03-how-to-get-niche-quick\036-the-7step-persona-checklist.mp4</LocalFile>
+				<RemoteFile>036-the-7step-persona-checklist.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 25 03-how-to-get-niche-quick</RemotePath>
+				<Flags>16</Flags>
+				<Size>15935050</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\03-how-to-get-niche-quick\035-publicising-your-personas.mp4</LocalFile>
+				<RemoteFile>035-publicising-your-personas.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 25 03-how-to-get-niche-quick</RemotePath>
+				<Flags>16</Flags>
+				<Size>25879678</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\03-how-to-get-niche-quick\034-the-pitfalls-of-personas.mp4</LocalFile>
+				<RemoteFile>034-the-pitfalls-of-personas.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 25 03-how-to-get-niche-quick</RemotePath>
+				<Flags>16</Flags>
+				<Size>23393967</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\03-how-to-get-niche-quick\033-the-benefits-of-personas.mp4</LocalFile>
+				<RemoteFile>033-the-benefits-of-personas.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 25 03-how-to-get-niche-quick</RemotePath>
+				<Flags>16</Flags>
+				<Size>13420556</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\Phone\Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir\Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9\03-how-to-get-niche-quick\030-introduction-to-personas.mp4</LocalFile>
+				<RemoteFile>030-introduction-to-personas.mp4</RemoteFile>
+				<RemotePath>1 0 5 Phone 90 Udemy_User_Experience_UX_The_Ultimate_Guide_to_Usability_and_UX_2017-9.part1_Downloadly.ir 91 Udemy - Gift This Course User Experience (UX) The Ultimate Guide to Usability and UX 2017-9 25 03-how-to-get-niche-quick</RemotePath>
+				<Flags>16</Flags>
+				<Size>61159297</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\video\Parasite.2019.720p.BluRay.x264.SalamDL_INFO.mkv</LocalFile>
+				<RemoteFile>Parasite.2019.720p.BluRay.x264.SalamDL_INFO.mkv</RemoteFile>
+				<RemotePath>1 0 5 video</RemotePath>
+				<Flags>16</Flags>
+				<Size>1284871684</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\کلید ضد جرقه با مکانیزم مکانیکی با استفاده از آهنربا.pdf</LocalFile>
+				<RemoteFile>کلید ضد جرقه با مکانیزم مکانیکی با استفاده از آهنربا.pdf</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>554925</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\فاکتور هزینه های اولیه.xlsx</LocalFile>
+				<RemoteFile>فاکتور هزینه های اولیه.xlsx</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>11044</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\فاکتور هزینه های اولیه.pdf</LocalFile>
+				<RemoteFile>فاکتور هزینه های اولیه.pdf</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>17830</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\دانشجوی دانشگاه منتظری مشهد.pdf</LocalFile>
+				<RemoteFile>دانشجوی دانشگاه منتظری مشهد.pdf</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>731839</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\توصیف.docx</LocalFile>
+				<RemoteFile>توصیف.docx</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>25278</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\6.png</LocalFile>
+				<RemoteFile>6.png</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>73762</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\5.png</LocalFile>
+				<RemoteFile>5.png</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>62292</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\4.png</LocalFile>
+				<RemoteFile>4.png</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>32876</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\3.png</LocalFile>
+				<RemoteFile>3.png</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>31722</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\2.png</LocalFile>
+				<RemoteFile>2.png</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>97076</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\1.png</LocalFile>
+				<RemoteFile>1.png</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>93015</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\0.jpg</LocalFile>
+				<RemoteFile>0.jpg</RemoteFile>
+				<RemotePath>1 0 4 کلید</RemotePath>
+				<Flags>16</Flags>
+				<Size>47306</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (1)\file.pdf</LocalFile>
+				<RemoteFile>file.pdf</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (1)</RemotePath>
+				<Flags>16</Flags>
+				<Size>3413710</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (1)\file.docx</LocalFile>
+				<RemoteFile>file.docx</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (1)</RemotePath>
+				<Flags>16</Flags>
+				<Size>15377</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (1)\file (1).pdf</LocalFile>
+				<RemoteFile>file (1).pdf</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (1)</RemotePath>
+				<Flags>16</Flags>
+				<Size>443949</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (2)\redirect.tiff</LocalFile>
+				<RemoteFile>redirect.tiff</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (2)</RemotePath>
+				<Flags>16</Flags>
+				<Size>136450</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (2)\redirect (1).tiff</LocalFile>
+				<RemoteFile>redirect (1).tiff</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (2)</RemotePath>
+				<Flags>16</Flags>
+				<Size>125168</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (2)\file.docx</LocalFile>
+				<RemoteFile>file.docx</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (2)</RemotePath>
+				<Flags>16</Flags>
+				<Size>12936</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (3)\redirect.tiff</LocalFile>
+				<RemoteFile>redirect.tiff</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (3)</RemotePath>
+				<Flags>16</Flags>
+				<Size>243604</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (3)\redirect (1).tiff</LocalFile>
+				<RemoteFile>redirect (1).tiff</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (3)</RemotePath>
+				<Flags>16</Flags>
+				<Size>242686</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (3)\file.docx</LocalFile>
+				<RemoteFile>file.docx</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (3)</RemotePath>
+				<Flags>16</Flags>
+				<Size>14580</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (4)\redirect.tiff</LocalFile>
+				<RemoteFile>redirect.tiff</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (4)</RemotePath>
+				<Flags>16</Flags>
+				<Size>974338</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (4)\redirect (2).tiff</LocalFile>
+				<RemoteFile>redirect (2).tiff</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (4)</RemotePath>
+				<Flags>16</Flags>
+				<Size>121398</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Misc\کلید\New folder (4)\redirect (1).tiff</LocalFile>
+				<RemoteFile>redirect (1).tiff</RemoteFile>
+				<RemotePath>1 0 4 کلید 14 New folder (4)</RemotePath>
+				<Flags>16</Flags>
+				<Size>121194</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean.Coders.02.Names_git.ir.rar</LocalFile>
+				<RemoteFile>Clean.Coders.02.Names_git.ir.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>380319032</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean.Coders.01.Clean.Code_git.ir.rar</LocalFile>
+				<RemoteFile>Clean.Coders.01.Clean.Code_git.ir.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>231998878</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 30 - SMC Generator_git.ir.part2.rar</LocalFile>
+				<RemoteFile>Clean Coders 30 - SMC Generator_git.ir.part2.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>108277407</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 30 - SMC Generator_git.ir.part1.rar</LocalFile>
+				<RemoteFile>Clean Coders 30 - SMC Generator_git.ir.part1.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>1073741824</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 29 - SMC Parser_git.ir.rar</LocalFile>
+				<RemoteFile>Clean Coders 29 - SMC Parser_git.ir.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>1012487958</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 28 - Finite State Machines and The State Pattern_git.ir.rar</LocalFile>
+				<RemoteFile>Clean Coders 28 - Finite State Machines and The State Pattern_git.ir.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>958257938</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 27 - Strategy and Template Method Patterns_git.ir.rar</LocalFile>
+				<RemoteFile>Clean Coders 27 - Strategy and Template Method Patterns_git.ir.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>552992520</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 26 - Factories_git.ir.part2.rar</LocalFile>
+				<RemoteFile>Clean Coders 26 - Factories_git.ir.part2.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>160834886</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 26 - Factories_git.ir.part1.rar</LocalFile>
+				<RemoteFile>Clean Coders 26 - Factories_git.ir.part1.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>1073741824</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 25 - Design Patterns_git.ir.rar</LocalFile>
+				<RemoteFile>Clean Coders 25 - Design Patterns_git.ir.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>1014577574</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 24 - Transformation Priority Premise_git.ir.part2.rar</LocalFile>
+				<RemoteFile>Clean Coders 24 - Transformation Priority Premise_git.ir.part2.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>656949122</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 24 - Transformation Priority Premise_git.ir.part1.rar</LocalFile>
+				<RemoteFile>Clean Coders 24 - Transformation Priority Premise_git.ir.part1.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>1073741824</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 23 - Mocking_git.ir.rar</LocalFile>
+				<RemoteFile>Clean Coders 23 - Mocking_git.ir.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>989366519</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 22 - Test Process_git.ir.part2.rar</LocalFile>
+				<RemoteFile>Clean Coders 22 - Test Process_git.ir.part2.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>747834514</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 22 - Test Process_git.ir.part1.rar</LocalFile>
+				<RemoteFile>Clean Coders 22 - Test Process_git.ir.part1.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>1073741824</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 21 - Test Design_git.ir.part2.rar</LocalFile>
+				<RemoteFile>Clean Coders 21 - Test Design_git.ir.part2.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>333999040</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 21 - Test Design_git.ir.part1.rar</LocalFile>
+				<RemoteFile>Clean Coders 21 - Test Design_git.ir.part1.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>1073741824</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 20 - Clean Tests_git.ir.part2.rar</LocalFile>
+				<RemoteFile>Clean Coders 20 - Clean Tests_git.ir.part2.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>651790979</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 20 - Clean Tests_git.ir.part1.rar</LocalFile>
+				<RemoteFile>Clean Coders 20 - Clean Tests_git.ir.part1.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>1073741824</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 19 - Advanced TDD_git.ir.part2.rar</LocalFile>
+				<RemoteFile>Clean Coders 19 - Advanced TDD_git.ir.part2.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>583156107</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\CleanCode\Clean Coders 19 - Advanced TDD_git.ir.part1.rar</LocalFile>
+				<RemoteFile>Clean Coders 19 - Advanced TDD_git.ir.part1.rar</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 9 CleanCode</RemotePath>
+				<Flags>16</Flags>
+				<Size>1073741824</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\www.p30forum.com.url</LocalFile>
+				<RemoteFile>www.p30forum.com.url</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com</RemotePath>
+				<Flags>16</Flags>
+				<Size>183</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\www.p30download.com.url</LocalFile>
+				<RemoteFile>www.p30download.com.url</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com</RemotePath>
+				<Flags>16</Flags>
+				<Size>201</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\pd.jpg</LocalFile>
+				<RemoteFile>pd.jpg</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com</RemotePath>
+				<Flags>16</Flags>
+				<Size>23545</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\!pd.nfo</LocalFile>
+				<RemoteFile>!pd.nfo</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com</RemotePath>
+				<Flags>32784</Flags>
+				<Size>2000</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_16-Summary.mp4</LocalFile>
+				<RemoteFile>01_16-Summary.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>1150450</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_15-Rules_of_Thumb_and_Lambda_Summary.mp4</LocalFile>
+				<RemoteFile>01_15-Rules_of_Thumb_and_Lambda_Summary.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>3683579</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_14-Avoiding_Undefined_Behavior.mp4</LocalFile>
+				<RemoteFile>01_14-Avoiding_Undefined_Behavior.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>5865305</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_13-Other_Features_of_Lambda_Expressions.mp4</LocalFile>
+				<RemoteFile>01_13-Other_Features_of_Lambda_Expressions.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>3371261</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_12-Mutable_Lambdas.mp4</LocalFile>
+				<RemoteFile>01_12-Mutable_Lambdas.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>5679072</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_11-Capturing_in_C++11.mp4</LocalFile>
+				<RemoteFile>01_11-Capturing_in_C++11.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>15393648</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_10-Referring_to_External_Variables.mp4</LocalFile>
+				<RemoteFile>01_10-Referring_to_External_Variables.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>3215589</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_09-Storing_Lambdas.mp4</LocalFile>
+				<RemoteFile>01_09-Storing_Lambdas.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>6161690</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_08-Components_of_Lambda_Expressions.mp4</LocalFile>
+				<RemoteFile>01_08-Components_of_Lambda_Expressions.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>3438681</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_07-Lambda_Expressions_Overview.mp4</LocalFile>
+				<RemoteFile>01_07-Lambda_Expressions_Overview.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>5266558</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_06-Trailing_Return_Types.mp4</LocalFile>
+				<RemoteFile>01_06-Trailing_Return_Types.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>3990570</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_05-decltype_and_declval.mp4</LocalFile>
+				<RemoteFile>01_05-decltype_and_declval.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>7060101</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_04-Details_of_Using_auto.mp4</LocalFile>
+				<RemoteFile>01_04-Details_of_Using_auto.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>7697324</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_03-Purpose_of_auto.mp4</LocalFile>
+				<RemoteFile>01_03-Purpose_of_auto.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>6623773</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_02-auto_Overview.mp4</LocalFile>
+				<RemoteFile>01_02-auto_Overview.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>5072272</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\01 C++11 Features in GCC 4.8\01_01-Overview.mp4</LocalFile>
+				<RemoteFile>01_01-Overview.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 28 01 C++11 Features in GCC 4.8</RemotePath>
+				<Flags>16</Flags>
+				<Size>7164902</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_15-Summary.mp4</LocalFile>
+				<RemoteFile>02_15-Summary.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>806168</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_14-Narrowing_Conversions,Initialization_Caveats.mp4</LocalFile>
+				<RemoteFile>02_14-Narrowing_Conversions,Initialization_Caveats.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>10737106</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_13-initializer_list.mp4</LocalFile>
+				<RemoteFile>02_13-initializer_list.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>4867864</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_12-Uniform_Initialization.mp4</LocalFile>
+				<RemoteFile>02_12-Uniform_Initialization.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>9359770</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_11-Friend_Declarations,Nested_Classes.mp4</LocalFile>
+				<RemoteFile>02_11-Friend_Declarations,Nested_Classes.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>6245563</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_10-override_and_final_Keywords.mp4</LocalFile>
+				<RemoteFile>02_10-override_and_final_Keywords.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>4534743</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_09-Default_and_Deleted_Methods.mp4</LocalFile>
+				<RemoteFile>02_09-Default_and_Deleted_Methods.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>10601763</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_08-Inheriting_and_Delegating_Constructors.mp4</LocalFile>
+				<RemoteFile>02_08-Inheriting_and_Delegating_Constructors.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>15576261</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_07-In-class_Initializers_for_Non-static_Data_Members.mp4</LocalFile>
+				<RemoteFile>02_07-In-class_Initializers_for_Non-static_Data_Members.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>6616759</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_06-__,Template_Arguments,extern_Templates.mp4</LocalFile>
+				<RemoteFile>02_06-__,Template_Arguments,extern_Templates.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>10772186</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_05-Template_Aliases.mp4</LocalFile>
+				<RemoteFile>02_05-Template_Aliases.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>6198599</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_04-More_Variadic_Template_Features.mp4</LocalFile>
+				<RemoteFile>02_04-More_Variadic_Template_Features.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>12674697</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_03-Working_with_Parameter_Packs.mp4</LocalFile>
+				<RemoteFile>02_03-Working_with_Parameter_Packs.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>12974578</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_02-Variadic_Templates.mp4</LocalFile>
+				<RemoteFile>02_02-Variadic_Templates.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>9140782</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\02 Templates, Classes, Initialization\02_01-Overview.mp4</LocalFile>
+				<RemoteFile>02_01-Overview.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 37 02 Templates, Classes, Initialization</RemotePath>
+				<Flags>16</Flags>
+				<Size>1643605</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_15-Summary.mp4</LocalFile>
+				<RemoteFile>03_15-Summary.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>1250018</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_14-Revision.mp4</LocalFile>
+				<RemoteFile>03_14-Revision.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>1687471</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_13-constexpr_Functions&amp;Literal_Types.mp4</LocalFile>
+				<RemoteFile>03_13-constexpr_Functions&amp;Literal_Types.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>11833065</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_12-constexpr_Mechanism.mp4</LocalFile>
+				<RemoteFile>03_12-constexpr_Mechanism.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>4778474</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_11-Reference_Collapsing,forward_and_move_Templates.mp4</LocalFile>
+				<RemoteFile>03_11-Reference_Collapsing,forward_and_move_Templates.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>13066104</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_10-Perfect_Forwarding.mp4</LocalFile>
+				<RemoteFile>03_10-Perfect_Forwarding.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>8456761</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_09-Move-only_Types.mp4</LocalFile>
+				<RemoteFile>03_09-Move-only_Types.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>2480560</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_08-Reference_Qualifiers_for_Member_Functions.mp4</LocalFile>
+				<RemoteFile>03_08-Reference_Qualifiers_for_Member_Functions.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>5630368</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_07-Move_Semantics_Guidelines.mp4</LocalFile>
+				<RemoteFile>03_07-Move_Semantics_Guidelines.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>7352009</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_06-std-move.mp4</LocalFile>
+				<RemoteFile>03_06-std-move.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>1813911</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_04-rvalue_References.mp4</LocalFile>
+				<RemoteFile>03_04-rvalue_References.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>7994660</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_05-Move_Semantics_Implementation.mp4</LocalFile>
+				<RemoteFile>03_05-Move_Semantics_Implementation.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>16688924</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_02-Move_Semantics_Introduction.mp4</LocalFile>
+				<RemoteFile>03_02-Move_Semantics_Introduction.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>7713081</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_01-Overview.mp4</LocalFile>
+				<RemoteFile>03_01-Overview.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>1582213</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\03 Move Semantics, Perfect Forwarding, constexpr\03_03-lvalue-rvalue_Revision.mp4</LocalFile>
+				<RemoteFile>03_03-lvalue-rvalue_Revision.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 48 03 Move Semantics, Perfect Forwarding, constexpr</RemotePath>
+				<Flags>16</Flags>
+				<Size>15385347</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\04 Range-based for nullptr, enums, literals, static_assert, noexcept\04_11-Summary.mp4</LocalFile>
+				<RemoteFile>04_11-Summary.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 68 04 Range-based for nullptr, enums, literals, static_assert, noexcept</RemotePath>
+				<Flags>16</Flags>
+				<Size>1388739</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\04 Range-based for nullptr, enums, literals, static_assert, noexcept\04_10-Exception_Specifications.mp4</LocalFile>
+				<RemoteFile>04_10-Exception_Specifications.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 68 04 Range-based for nullptr, enums, literals, static_assert, noexcept</RemotePath>
+				<Flags>16</Flags>
+				<Size>13841024</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\04 Range-based for nullptr, enums, literals, static_assert, noexcept\04_09-Literal_Operators.mp4</LocalFile>
+				<RemoteFile>04_09-Literal_Operators.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 68 04 Range-based for nullptr, enums, literals, static_assert, noexcept</RemotePath>
+				<Flags>16</Flags>
+				<Size>19409095</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\04 Range-based for nullptr, enums, literals, static_assert, noexcept\04_08-User_Defined_Literals.mp4</LocalFile>
+				<RemoteFile>04_08-User_Defined_Literals.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 68 04 Range-based for nullptr, enums, literals, static_assert, noexcept</RemotePath>
+				<Flags>16</Flags>
+				<Size>7595654</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\04 Range-based for nullptr, enums, literals, static_assert, noexcept\04_07-Raw_Literals.mp4</LocalFile>
+				<RemoteFile>04_07-Raw_Literals.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 68 04 Range-based for nullptr, enums, literals, static_assert, noexcept</RemotePath>
+				<Flags>16</Flags>
+				<Size>4416967</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\04 Range-based for nullptr, enums, literals, static_assert, noexcept\04_06-Unicode_Support&amp;New_Literals.mp4</LocalFile>
+				<RemoteFile>04_06-Unicode_Support&amp;New_Literals.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 68 04 Range-based for nullptr, enums, literals, static_assert, noexcept</RemotePath>
+				<Flags>16</Flags>
+				<Size>5298096</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\04 Range-based for nullptr, enums, literals, static_assert, noexcept\04_05-Compile_Time_Assertions.mp4</LocalFile>
+				<RemoteFile>04_05-Compile_Time_Assertions.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 68 04 Range-based for nullptr, enums, literals, static_assert, noexcept</RemotePath>
+				<Flags>16</Flags>
+				<Size>6210040</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\04 Range-based for nullptr, enums, literals, static_assert, noexcept\04_04-Enum_Changes.mp4</LocalFile>
+				<RemoteFile>04_04-Enum_Changes.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 68 04 Range-based for nullptr, enums, literals, static_assert, noexcept</RemotePath>
+				<Flags>16</Flags>
+				<Size>17980526</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\04 Range-based for nullptr, enums, literals, static_assert, noexcept\04_03-Null_Pointer.mp4</LocalFile>
+				<RemoteFile>04_03-Null_Pointer.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 68 04 Range-based for nullptr, enums, literals, static_assert, noexcept</RemotePath>
+				<Flags>16</Flags>
+				<Size>4806314</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\04 Range-based for nullptr, enums, literals, static_assert, noexcept\04_01-Overview.mp4</LocalFile>
+				<RemoteFile>04_01-Overview.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 68 04 Range-based for nullptr, enums, literals, static_assert, noexcept</RemotePath>
+				<Flags>16</Flags>
+				<Size>1481663</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\05 More Language Features, other Platforms, and The Future of C++\05_13-Summary.mp4</LocalFile>
+				<RemoteFile>05_13-Summary.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 65 05 More Language Features, other Platforms, and The Future of C++</RemotePath>
+				<Flags>16</Flags>
+				<Size>2589926</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\05 More Language Features, other Platforms, and The Future of C++\05_11-Writing_Cross-platform_Code.mp4</LocalFile>
+				<RemoteFile>05_11-Writing_Cross-platform_Code.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 65 05 More Language Features, other Platforms, and The Future of C++</RemotePath>
+				<Flags>16</Flags>
+				<Size>4958517</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\05 More Language Features, other Platforms, and The Future of C++\05_10-C99_Compatibility,Deprecations,Removals.mp4</LocalFile>
+				<RemoteFile>05_10-C99_Compatibility,Deprecations,Removals.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 65 05 More Language Features, other Platforms, and The Future of C++</RemotePath>
+				<Flags>16</Flags>
+				<Size>6089408</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\05 More Language Features, other Platforms, and The Future of C++\05_08-POD_Types.mp4</LocalFile>
+				<RemoteFile>05_08-POD_Types.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 65 05 More Language Features, other Platforms, and The Future of C++</RemotePath>
+				<Flags>16</Flags>
+				<Size>10650999</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\05 More Language Features, other Platforms, and The Future of C++\05_07-Generalized_Attributes.mp4</LocalFile>
+				<RemoteFile>05_07-Generalized_Attributes.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 65 05 More Language Features, other Platforms, and The Future of C++</RemotePath>
+				<Flags>16</Flags>
+				<Size>4721987</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\05 More Language Features, other Platforms, and The Future of C++\05_05-Memory_Model.mp4</LocalFile>
+				<RemoteFile>05_05-Memory_Model.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 65 05 More Language Features, other Platforms, and The Future of C++</RemotePath>
+				<Flags>16</Flags>
+				<Size>4800607</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\05 More Language Features, other Platforms, and The Future of C++\05_03-Inline_Namespaces.mp4</LocalFile>
+				<RemoteFile>05_03-Inline_Namespaces.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 65 05 More Language Features, other Platforms, and The Future of C++</RemotePath>
+				<Flags>16</Flags>
+				<Size>7374233</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\05 More Language Features, other Platforms, and The Future of C++\05_01-Overview.mp4</LocalFile>
+				<RemoteFile>05_01-Overview.mp4</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 65 05 More Language Features, other Platforms, and The Future of C++</RemotePath>
+				<Flags>16</Flags>
+				<Size>2606983</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\3-cplusplus11-language-features-m3-slides.pdf</LocalFile>
+				<RemoteFile>3-cplusplus11-language-features-m3-slides.pdf</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files</RemotePath>
+				<Flags>16</Flags>
+				<Size>287714</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\README</LocalFile>
+				<RemoteFile>README</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files</RemotePath>
+				<Flags>32784</Flags>
+				<Size>1461</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\Makefile</LocalFile>
+				<RemoteFile>Makefile</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files</RemotePath>
+				<Flags>32784</Flags>
+				<Size>455</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\init_cmake.sh</LocalFile>
+				<RemoteFile>init_cmake.sh</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit</RemotePath>
+				<Flags>32784</Flags>
+				<Size>0</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\.gitignore</LocalFile>
+				<RemoteFile>.gitignore</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit</RemotePath>
+				<Flags>32784</Flags>
+				<Size>72</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\options.h</LocalFile>
+				<RemoteFile>options.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit</RemotePath>
+				<Flags>32784</Flags>
+				<Size>2655</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\bandit.h</LocalFile>
+				<RemoteFile>bandit.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit</RemotePath>
+				<Flags>32784</Flags>
+				<Size>863</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\adapters\adapters.h</LocalFile>
+				<RemoteFile>adapters.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 8 adapters</RemotePath>
+				<Flags>32784</Flags>
+				<Size>327</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\CMakeLists.txt</LocalFile>
+				<RemoteFile>CMakeLists.txt</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse</RemotePath>
+				<Flags>32784</Flags>
+				<Size>552</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\stringize.h</LocalFile>
+				<RemoteFile>stringize.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse</RemotePath>
+				<Flags>32784</Flags>
+				<Size>2575</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\assertmacro.h</LocalFile>
+				<RemoteFile>assertmacro.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse</RemotePath>
+				<Flags>32784</Flags>
+				<Size>434</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\constraints\islessthanconstraint.h</LocalFile>
+				<RemoteFile>islessthanconstraint.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse 11 constraints</RemotePath>
+				<Flags>32784</Flags>
+				<Size>1491</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\constraints\fulfillsconstraint.h</LocalFile>
+				<RemoteFile>fulfillsconstraint.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse 11 constraints</RemotePath>
+				<Flags>32784</Flags>
+				<Size>1290</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\constraints\equalsconstraint.h</LocalFile>
+				<RemoteFile>equalsconstraint.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse 11 constraints</RemotePath>
+				<Flags>32784</Flags>
+				<Size>1857</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\constraints\expressions\orexpression.h</LocalFile>
+				<RemoteFile>orexpression.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse 11 constraints 11 expressions</RemotePath>
+				<Flags>32784</Flags>
+				<Size>1330</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\constraints\expressions\expression.h</LocalFile>
+				<RemoteFile>expression.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse 11 constraints 11 expressions</RemotePath>
+				<Flags>32784</Flags>
+				<Size>977</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\fluent\constraintlist.h</LocalFile>
+				<RemoteFile>constraintlist.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse 6 fluent</RemotePath>
+				<Flags>32784</Flags>
+				<Size>2569</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\fluent\operators\notoperator.h</LocalFile>
+				<RemoteFile>notoperator.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse 6 fluent 9 operators</RemotePath>
+				<Flags>32784</Flags>
+				<Size>1339</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\fluent\operators\collections\exactlyoperator.h</LocalFile>
+				<RemoteFile>exactlyoperator.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse 6 fluent 9 operators 11 collections</RemotePath>
+				<Flags>32784</Flags>
+				<Size>1177</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\snowhouse\fluent\operators\collections\alloperator.h</LocalFile>
+				<RemoteFile>alloperator.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse 9 snowhouse 6 fluent 9 operators 11 collections</RemotePath>
+				<Flags>32784</Flags>
+				<Size>1015</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\failure_formatters\failure_formatters.h</LocalFile>
+				<RemoteFile>failure_formatters.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 18 failure_formatters</RemotePath>
+				<Flags>32784</Flags>
+				<Size>367</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\registration\spec_registry.h</LocalFile>
+				<RemoteFile>spec_registry.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 12 registration</RemotePath>
+				<Flags>32784</Flags>
+				<Size>307</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\reporters\xunit_reporter.h</LocalFile>
+				<RemoteFile>xunit_reporter.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 9 reporters</RemotePath>
+				<Flags>32784</Flags>
+				<Size>2468</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\bandit\reporters\progress_reporter.h</LocalFile>
+				<RemoteFile>progress_reporter.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 6 bandit 9 reporters</RemotePath>
+				<Flags>32784</Flags>
+				<Size>2377</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\specs\synopsis.spec.cpp</LocalFile>
+				<RemoteFile>synopsis.spec.cpp</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 5 specs</RemotePath>
+				<Flags>32784</Flags>
+				<Size>936</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\specs\options.spec.cpp</LocalFile>
+				<RemoteFile>options.spec.cpp</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 5 specs</RemotePath>
+				<Flags>32784</Flags>
+				<Size>2208</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\specs\fuzzbox.spec.cpp</LocalFile>
+				<RemoteFile>fuzzbox.spec.cpp</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 5 specs</RemotePath>
+				<Flags>32784</Flags>
+				<Size>1331</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\specs\failure_formatters\visual_studio_failure_formatter.spec.cpp</LocalFile>
+				<RemoteFile>visual_studio_failure_formatter.spec.cpp</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 5 specs 18 failure_formatters</RemotePath>
+				<Flags>32784</Flags>
+				<Size>587</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\specs\fakes\fake_reporter.h</LocalFile>
+				<RemoteFile>fake_reporter.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 5 specs 5 fakes</RemotePath>
+				<Flags>32784</Flags>
+				<Size>1720</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\specs\reporters\xunit_reporter.spec.cpp</LocalFile>
+				<RemoteFile>xunit_reporter.spec.cpp</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 5 specs 9 reporters</RemotePath>
+				<Flags>32784</Flags>
+				<Size>4576</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\bandit\specs\util\util.h</LocalFile>
+				<RemoteFile>util.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 6 bandit 5 specs 4 util</RemotePath>
+				<Flags>32784</Flags>
+				<Size>96</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\1-cplusplus11-language-features-m1-exercise-files\lambda-tests\test-capture-global.cpp</LocalFile>
+				<RemoteFile>test-capture-global.cpp</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 1-cplusplus11-language-features-m1-exercise-files 12 lambda-tests</RemotePath>
+				<Flags>32784</Flags>
+				<Size>126</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\2-cplusplus11-language-features-m2-exercise-files\precompiled.h</LocalFile>
+				<RemoteFile>precompiled.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 2-cplusplus11-language-features-m2-exercise-files</RemotePath>
+				<Flags>32784</Flags>
+				<Size>178</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\2-cplusplus11-language-features-m2-exercise-files\bandit\README.md</LocalFile>
+				<RemoteFile>README.md</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 2-cplusplus11-language-features-m2-exercise-files 6 bandit</RemotePath>
+				<Flags>16</Flags>
+				<Size>1224</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\2-cplusplus11-language-features-m2-exercise-files\bandit\CMakeLists.txt</LocalFile>
+				<RemoteFile>CMakeLists.txt</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 2-cplusplus11-language-features-m2-exercise-files 6 bandit</RemotePath>
+				<Flags>32784</Flags>
+				<Size>985</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\2-cplusplus11-language-features-m2-exercise-files\bandit\bandit\runner.h</LocalFile>
+				<RemoteFile>runner.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 2-cplusplus11-language-features-m2-exercise-files 6 bandit 6 bandit</RemotePath>
+				<Flags>32784</Flags>
+				<Size>2244</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\2-cplusplus11-language-features-m2-exercise-files\bandit\bandit\grammar.h</LocalFile>
+				<RemoteFile>grammar.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 2-cplusplus11-language-features-m2-exercise-files 6 bandit 6 bandit</RemotePath>
+				<Flags>32784</Flags>
+				<Size>2473</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\2-cplusplus11-language-features-m2-exercise-files\bandit\bandit\assertion_exception.h</LocalFile>
+				<RemoteFile>assertion_exception.h</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 2-cplusplus11-language-features-m2-exercise-files 6 bandit 6 bandit</RemotePath>
+				<Flags>32784</Flags>
+				<Size>775</Size>
+			</File>
+			<File>
+				<LocalFile>D:\Courses\Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com\Exercise Files\2-cplusplus11-language-features-m2-exercise-files\bandit\bandit\assertion_frameworks\snowhouse\README.md</LocalFile>
+				<RemoteFile>README.md</RemoteFile>
+				<RemotePath>1 0 18 Educational Videos 64 Pluralsigh.C.Plus.Plus.11.Language.Features.Full_p30download.com 14 Exercise Files 49 2-cplusplus11-language-features-m2-exercise-files 6 bandit 6 bandit 20 assertion_frameworks 9 snowhouse</RemotePath>
+				<Flags>16</Flags>
+				<Size>708</Size>
+			</File>
+		</Server>
+	</Queue>
+</FileZilla3>
